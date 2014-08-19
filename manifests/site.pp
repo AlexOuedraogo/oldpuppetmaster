@@ -3,7 +3,7 @@ package { 'vim-common':
 ensure => present,
 }
 
-include ::sudo
+include sudo
 
 }
  
